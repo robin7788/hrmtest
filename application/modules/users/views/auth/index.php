@@ -25,4 +25,4 @@
         </tr>
     <?php endforeach; ?>
 </table>
-<p><?php echo anchor('auth/create_user', lang('index_create_user_link')) ?> | <?php echo anchor('auth/create_group', lang('index_create_group_link')) ?> | <?php echo anchor('auth/logout', lang('logout')) ?></p>
+<p><?php echo anchor('auth/create_user', lang('index_create_user_link')) ?> | <?php echo anchor('auth/create_group', lang('index_create_group_link')) ?> | <?php echo anchor('auth/logout', lang('logout')) ?></p> <!-- added logout anchor tag --> 
