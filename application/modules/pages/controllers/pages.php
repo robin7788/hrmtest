@@ -21,6 +21,7 @@ class pages extends Frontend_Controller
             'content' => 'pages/home'
         );
         $this->load->view($this->config->item('theme_path'), $data);
+        redirect(base_url('auth/login'),'refresh'); 
     }
 
 }
